@@ -32,5 +32,5 @@ public class MainActivity extends AppCompatActivity {
 
     public void setMensagem(){
         binding.txtMensagem.setText(mensagem);
-    };
+    }
 }
