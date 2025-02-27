@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        //splash screen
+        //handler que manda comando pra UiThread para fazer a transição da tela com delay para enviar o codigo
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
